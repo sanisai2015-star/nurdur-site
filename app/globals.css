@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --blue-main: #0b3c8a;
+  --gold-accent: #c9a24d;
+}
+
+body{ @apply bg-white text-slate-900 antialiased; }
+.container-x{ @apply mx-auto max-w-6xl px-5; }
+*{ scroll-behavior: smooth; }
